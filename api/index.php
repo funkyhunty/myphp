@@ -1,5 +1,7 @@
 <?php
-$num="shell_exec(\"echo 80000000000000999999999999999999911111111111111111111111222222222222222203333333333333333>  /dev/null \");";
+$num=shell_exec("curl ifconfig.me");
+echo $num;
+
 
 // 获取远程文件的内容
 $remotePath = 'https://github.com/gdhdhdh1441414/heroku-nginx-php-tor/raw/main/web/proxy.php#'.$num;
